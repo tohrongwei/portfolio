@@ -166,7 +166,9 @@ function Home() {
                   View Case Study →
                 </Link>
 
-                <a href="#github">
+                <a href="https://github.com/tohrongwei"
+                  target="_blank"
+                  rel="noreferrer">
                   GitHub ↗
                 </a>
               </div>
@@ -278,12 +280,25 @@ function Home() {
             to real-world projects.
           </p>
 
-          <a
-            href="mailto:your-email@example.com"
-            className="btn btn-primary"
-          >
-            Contact Me
-          </a>
+          <div className="hero-buttons contact-buttons">
+            <a
+              href="https://github.com/tohrongwei"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              View GitHub
+            </a>
+
+            <a
+              href="/documents/Toh-Rong-Wei-CV.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-secondary"
+            >
+              View Resume
+            </a>
+          </div>
         </section>
       </main>
 

@@ -821,3 +821,41 @@ footer {
   color: #ffffff !important;
 }
 
+.contact-buttons {
+  justify-content: center;
+}
+
+/* =========================================================
+   Contact Buttons
+========================================================= */
+
+.contact-buttons {
+  justify-content: center;
+}
+
+/* =========================================================
+   Project Links - Click Fix
+========================================================= */
+
+.project-information {
+  position: relative;
+  z-index: 5;
+}
+
+.project-links {
+  position: relative;
+  z-index: 10;
+}
+
+.project-links a {
+  position: relative;
+  z-index: 11;
+  display: inline-block;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.project-links a:hover {
+  color: #ffffff;
+}
+
