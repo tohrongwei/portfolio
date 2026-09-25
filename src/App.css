@@ -859,3 +859,84 @@ footer {
   color: #ffffff;
 }
 
+/* =========================================================
+   Portfolio Text Contrast Fix
+========================================================= */
+
+/* Main headings */
+.portfolio h1,
+.portfolio h2,
+.portfolio h3,
+.case-study h1,
+.case-study h2,
+.case-study h3 {
+  color: #f4f7fb;
+}
+
+/* Standard body text */
+.portfolio p,
+.case-study p {
+  color: #aeb9c8;
+}
+
+/* Keep accent labels terracotta */
+.hero-label,
+.section-heading > p,
+.project-number,
+.contact-section > p:first-child,
+.case-label,
+.case-section-label {
+  color: #d86843;
+}
+
+/* Featured project */
+.project-information h3 {
+  color: #f4f7fb;
+}
+
+.project-subtitle {
+  color: #d5dde8;
+}
+
+.project-description {
+  color: #aeb9c8;
+}
+
+/* Skills */
+.skill-card h3 {
+  color: #f4f7fb;
+}
+
+.skill-card p {
+  color: #aeb9c8;
+}
+
+/* About */
+.about-content h3 {
+  color: #f4f7fb;
+}
+
+.about-content p {
+  color: #aeb9c8;
+}
+
+/* Contact */
+.contact-section h2 {
+  color: #f4f7fb;
+}
+
+.contact-description {
+  color: #aeb9c8;
+}
+
+/* Case study cards */
+.case-role-card h3,
+.screenshot-caption h3 {
+  color: #f4f7fb;
+}
+
+/* Feature headings */
+.feature-list strong {
+  color: #f4f7fb;
+}
+
